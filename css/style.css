@@ -1,0 +1,22 @@
+body {
+    font-family: Tahoma, sans-serif;
+    /* Sử dụng font Tahoma, nếu không có thì dùng sans-serif */
+    text-align: center;
+    /* Canh giữa nội dung */
+    color: #8fbc8f;
+    /* Màu xanh nhạt (LightSeaGreen) */
+    background-color: #f0f0f0;
+    /* Nền xám nhạt */
+    padding: 20px;
+    /* Thêm khoảng cách xung quanh nội dung */
+}
+
+/* Nếu bạn muốn áp dụng cho một phần tử cụ thể thay vì toàn bộ trang, hãy thay thế "body" bằng tên class hoặc id của phần tử đó, ví dụ: */
+
+.my-element {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    color: #8fbc8f;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
