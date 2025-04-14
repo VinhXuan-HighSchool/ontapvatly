@@ -48,3 +48,30 @@ a {
 a:hover {
     background-color: #246e49;
 }
+
+.link-list {
+    counter-reset: link-counter;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.link-list a {
+    display: block;
+    margin: 8px 0;
+    color: #e1f8eb;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.link-list a::before {
+    counter-increment: link-counter;
+    content: counter(link-counter) ". ";
+    position: absolute;
+    left: 10px;
+    color: #a7c7b7;
+    font-weight: bold;
+}
